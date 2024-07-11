@@ -1,15 +1,15 @@
 function checkSpeed(speed){
     if (speed <=80){
         return `good`}
-    } else if(speed>80&&speed<140)
+    }else if(speed>80 && speed<140)
         {return(speed-80)/5 +``+`demerit points`
 
         }else{
-            return `demerit points`
+            return `license suspended`
         }
 
 //// Example usage////
-let inputSpeed = parseInt(prompt("Enter speed:"));
+let inputSpeed = parseInt(prompt("Enter speed :"));
 
 //// Validate input////
 
